@@ -18,7 +18,7 @@ const paths = require('~/config/paths');
 
 const { PORT, HOST, ALLOW_SOCIAL_LOGIN } = process.env ?? {};
 
-const port = Number(PORT) || 3080;
+const port = Number(PORT) || 3030;
 const host = HOST || 'localhost';
 const projectPath = path.join(__dirname, '..', '..', 'client');
 const { jwtLogin, passportLogin } = require('~/strategies');
